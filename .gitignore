@@ -1,15 +1,8 @@
-# WordPress Core
-/wp-admin/
-/wp-includes/
-
-# Конфигурационные файлы (если содержит секреты, их лучше не хранить в репозитории)
-wp-config.php
-
 # Загрузки и кэш
 /wp-content/uploads/
 /wp-content/cache/
 
-# Если используете сторонние библиотеки через composer или npm
+# сторонние библиотеки через composer или npm
 /vendor/
 /node_modules/
 
